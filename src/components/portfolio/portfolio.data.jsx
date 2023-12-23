@@ -43,7 +43,7 @@ const PortfolioData = [
     category: "React JS",
     title: "TicTacToe App",
     image: tictactoe_app,
-    link: "https://react-ecommerce-site-xi.vercel.app/",
+    link: "https://tictactoe-in-react.vercel.app/",
     features:
       "React router, Context API, Routing parameters for different categories, Add to cart option, Breadcrumbs menu for products",
   },
@@ -52,7 +52,7 @@ const PortfolioData = [
     category: "React JS",
     title: "Currency Converter",
     image: currency_app,
-    link: "https://react-ecommerce-site-xi.vercel.app/",
+    link: "https://react-currency-converter-two.vercel.app/",
     features:
       "React router, Context API, Routing parameters for different categories, Add to cart option, Breadcrumbs menu for products",
   },
@@ -61,7 +61,7 @@ const PortfolioData = [
     category: "React JS",
     title: "Password Generator",
     image: password_app,
-    link: "https://react-ecommerce-site-xi.vercel.app/",
+    link: "https://react-password-generator-jet.vercel.app/",
     features:
       "React router, Context API, Routing parameters for different categories, Add to cart option, Breadcrumbs menu for products",
   },
@@ -97,7 +97,7 @@ const PortfolioData = [
     category: "Vanilla JS",
     title: "JS Calculator",
     image: jscalculator_app,
-    link: "https://gauravkumar2601.github.io/Drum-Kit/",
+    link: "https://gauravkumar2601.github.io/Javascript-Calculator/",
     features:
       "Music app using Javascript that plays different sounds based on the events triggered by the clicks, also handles respective keypress events",
   },
@@ -106,7 +106,7 @@ const PortfolioData = [
     category: "Vanilla JS",
     title: "TextToSpeech Convertor",
     image: texttospeech_app,
-    link: "https://gauravkumar2601.github.io/Drum-Kit/",
+    link: "https://gauravkumar2601.github.io/Text-To-Speech-Converter/",
     features:
       "Music app using Javascript that plays different sounds based on the events triggered by the clicks, also handles respective keypress events",
   },
