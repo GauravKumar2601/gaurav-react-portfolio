@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins&family=Roboto:wght@100;300;500;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+:root {
+  --main-clr: #fd6f00;
+  --black-clr: #000000;
+  --white-clr: #ffffff;
+  --light-clr: #f1f1f1;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+a {
+  color: var(--black-clr);
+}
+
+h3 {
+  font-size: 6.5rem;
+}
+
+a,
+p {
+  font-size: 1.6rem;
+}
+
+.mainBtn {
+  padding: 1rem 3rem;
+  border: 1px solid var(--main-clr);
+  border-radius: 40px;
+  background: var(--main-clr);
+  color: #fff;
+  cursor: pointer;
+  transition: 0.5s ease-in-out;
+  outline: none;
+}
+.mainBtn:hover {
+  background: transparent;
+  color: var(--main-clr);
+  border: 1px solid var(--main-clr);
+  transition: 0.2s;
+}
+
+.container {
+  width: 90%;
+  max-width: 1280px;
+  margin: 1rem auto;
+}
+
+section {
+  padding: 6rem 0 0 0;
+}
+
+span.main {
+  color: var(--main-clr);
+}

@@ -1,0 +1,82 @@
+section {
+  margin-bottom: 5rem;
+}
+section hr {
+  width: 80%;
+  border: 2px solid #e4e4e4;
+  margin-top: 3rem;
+  text-align: center;
+}
+section .ruler {
+  display: flex;
+  justify-content: center;
+}
+.portfolio .heading {
+  text-align: center;
+}
+.portfolio .heading .projects_summary {
+  margin-top: 2rem;
+  font-size: 2.2rem;
+  font-weight: 300;
+}
+.filter_nav {
+  display: flex;
+  margin-top: 5rem;
+  justify-content: center;
+  gap: 3rem;
+}
+.filter_nav .filter_option {
+  padding: 1rem 3rem;
+  font-size: 1.8rem;
+  border: 1px solid #cacaca;
+  border-radius: 4px;
+  background: #f1f1f1;
+  transition: 0.2s ease-in-out;
+  cursor: pointer;
+}
+.filter_nav .filter_option:hover {
+  background: var(--main-clr);
+  color: #fff;
+}
+.active {
+  background: var(--main-clr) !important;
+  color: #fff;
+}
+.filter_result {
+  display: flex;
+  flex-wrap: wrap;
+  grid-area: 30px;
+}
+.filter_result .filter_item {
+  margin: 0 auto;
+  margin-top: 6rem;
+  margin-bottom: 4rem;
+  max-width: 310px;
+  border: 3px solid #f1f1f1;
+  border-radius: 1rem;
+  padding: 2rem 3rem;
+}
+.filter_result .filter_item:hover {
+  transform: scale(1.05);
+  transition: 0.4s;
+}
+
+.filter_result .filter_item .img {
+  max-width: 260px;
+  margin-bottom: 1rem;
+}
+
+.filter_result .filter_item .img img {
+  width: 100%;
+}
+.filter_result .filter_item span {
+  font-size: 1.4rem;
+  color: var(--main-clr);
+}
+.filter_result .filter_item .project_features {
+  color: #707070;
+}
+.filter_result .filter_item h4 {
+  font-size: 1.8rem;
+  margin: 1rem 0;
+}

@@ -1,0 +1,37 @@
+.services .heading {
+  text-align: center;
+}
+.services .heading p {
+  margin-top: 2rem;
+  font-size: 2.2rem;
+  font-weight: 300;
+}
+.services_list {
+  display: flex;
+  margin-top: 8rem;
+  gap: 2rem;
+}
+.services_list .item {
+  display: flex;
+  background: #f1f1f1;
+  padding: 2rem;
+  border-radius: 1rem;
+}
+.services_list .item .icon {
+  margin: auto 0;
+}
+.services_list .skill_detail {
+  padding-left: 1.5rem;
+}
+
+.services_list .item:hover {
+  transform: scale(1.05);
+  transition: 0.4s;
+}
+.services_list .item h4 {
+  margin: 2rem;
+  font-size: 2.2rem;
+}
+.services_list p {
+  font-size: 1.6rem;
+}
