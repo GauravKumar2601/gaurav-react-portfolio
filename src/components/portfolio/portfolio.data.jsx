@@ -99,7 +99,7 @@ const PortfolioData = [
     image: jscalculator_app,
     link: "https://gauravkumar2601.github.io/Javascript-Calculator/",
     features:
-      "Music app using Javascript that plays different sounds based on the events triggered by the clicks, also handles respective keypress events",
+      "A calculator made using Vanilla Javascript that can be used for different computations",
   },
   {
     id: 11,
@@ -109,33 +109,6 @@ const PortfolioData = [
     link: "https://gauravkumar2601.github.io/Text-To-Speech-Converter/",
     features:
       "Music app using Javascript that plays different sounds based on the events triggered by the clicks, also handles respective keypress events",
-  },
-  {
-    id: 12,
-    category: "MERN",
-    title: "GuessMyNumber Game",
-    image: guessmynumber_app,
-    link: "",
-    features:
-      "A Number guessing game made in Javascript, User can guess a number b/w 1 to 20, If the no. doesn't match the generated no. then score is deducted",
-  },
-  {
-    id: 13,
-    category: "MERN",
-    title: "GuessMyNumber Game",
-    image: guessmynumber_app,
-    link: "",
-    features:
-      "A Number guessing game made in Javascript, User can guess a number b/w 1 to 20, If the no. doesn't match the generated no. then score is deducted",
-  },
-  {
-    id: 14,
-    category: "MERN",
-    title: "GuessMyNumber Game",
-    image: guessmynumber_app,
-    link: "",
-    features:
-      "A Number guessing game made in Javascript, User can guess a number b/w 1 to 20, If the no. doesn't match the generated no. then score is deducted",
   },
 ];
 

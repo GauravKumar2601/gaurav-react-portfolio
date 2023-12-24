@@ -31,7 +31,7 @@ const Portfolio = () => {
           </p>
         </div>
         <div className="filter_nav">
-          {["All", "React JS", "Vanilla JS", "MERN"].map((category) => (
+          {["All", "React JS", "Vanilla JS"].map((category) => (
             <div
               key={category}
               className={`filter_option 
