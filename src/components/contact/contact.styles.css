@@ -55,3 +55,18 @@ textarea:focus {
 .contact form button:hover {
   background: white;
 }
+
+/* ----------------------Media queries for responsive design---------------- */
+@media screen and (max-width: 800px) {
+  .contact h3 {
+    font-size: 4.5rem;
+  }
+  .contact form {
+    width: 100%;
+  }
+
+  .contact input,
+  .contact textarea {
+    padding: 1rem 1rem 1rem 3rem;
+  }
+}

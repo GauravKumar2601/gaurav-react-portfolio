@@ -35,3 +35,22 @@
 .services_list p {
   font-size: 1.6rem;
 }
+
+/* ----------------------Media queries for responsive design---------------- */
+@media screen and (max-width: 800px) {
+  .services .heading h3 {
+    font-size: 4.5rem;
+  }
+
+  .services .heading p {
+    font-size: 2rem;
+    text-align: justify;
+    padding: 0.7rem;
+  }
+
+  .services_list {
+    flex-direction: column;
+    margin-top: 4rem;
+    gap: 2rem;
+  }
+}

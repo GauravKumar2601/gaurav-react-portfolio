@@ -41,6 +41,8 @@
   transition: 0.1s ease-in-out;
 }
 
+/* ----------------header------------- */
+
 header {
   width: 100%;
 }
@@ -119,4 +121,39 @@ header .social-icon a {
 }
 header .social-icon a:hover {
   color: var(--main-clr);
+}
+
+/* ----------------------Media queries for responsive design---------------- */
+@media screen and (max-width: 800px) {
+  .container .navbar {
+    display: flex;
+    justify-content: center;
+  }
+
+  .navbar .logo img {
+    display: inline-block;
+    max-width: 140px;
+  }
+
+  .navbar nav ul {
+    display: none;
+  }
+
+  header .main {
+    flex-direction: column;
+  }
+  header .main .text-content span:nth-child(2) {
+    font-size: 2.5rem;
+  }
+  header .main .text-content span:nth-child(3) {
+    font-size: 3.9rem;
+  }
+
+  header .main .text-content p {
+    width: 100%;
+  }
+
+  .text-content a {
+    font-size: 0.5rem;
+  }
 }

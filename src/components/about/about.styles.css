@@ -41,3 +41,35 @@
   font-weight: 300;
   padding: 1rem 4rem;
 }
+
+/* ----------------------Media queries for responsive design---------------- */
+@media screen and (max-width: 800px) {
+  .about h3 {
+    font-size: 4.5rem;
+  }
+  .details {
+    flex-direction: column;
+    gap: 2rem;
+    padding: 1rem 2rem;
+  }
+
+  .about .details .education,
+  .about .details .experience {
+    width: 100%;
+    margin: 0;
+    font-size: 1.7rem;
+    font-weight: 400;
+    padding: 1rem 1.5rem;
+  }
+
+  .masters {
+    padding-left: 2.3rem;
+  }
+  .bachelors {
+    padding-left: 2.3rem;
+  }
+
+  .ducc {
+    padding-left: 2.3rem;
+  }
+}
