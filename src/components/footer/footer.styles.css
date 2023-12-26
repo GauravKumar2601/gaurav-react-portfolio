@@ -44,3 +44,10 @@
   margin: 0 0.5rem;
   font-size: 1.8rem;
 }
+
+/* ----------------------Media queries for responsive design---------------- */
+@media screen and (max-width: 800px) {
+  .menus ul {
+    flex-direction: column;
+  }
+}
