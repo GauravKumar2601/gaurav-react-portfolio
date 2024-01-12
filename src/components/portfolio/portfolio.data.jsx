@@ -9,6 +9,7 @@ import jsquiz_app from "../../assets/portfolio/jsquiz_app.png";
 import guessmynumber_app from "../../assets/portfolio/guessmynumber_app.png";
 import jscalculator_app from "../../assets/portfolio/jscalculator_app.png";
 import texttospeech_app from "../../assets/portfolio/texttospeech_app.png";
+import mernestate_app from "../../assets/portfolio/mernestate_app.png";
 
 const PortfolioData = [
   {
@@ -47,24 +48,24 @@ const PortfolioData = [
     features:
       "React router, Context API, Routing parameters for different categories, Add to cart option, Breadcrumbs menu for products",
   },
-  {
-    id: 5,
-    category: "React JS",
-    title: "Currency Converter",
-    image: currency_app,
-    link: "https://react-currency-converter-two.vercel.app/",
-    features:
-      "React router, Context API, Routing parameters for different categories, Add to cart option, Breadcrumbs menu for products",
-  },
-  {
-    id: 6,
-    category: "React JS",
-    title: "Password Generator",
-    image: password_app,
-    link: "https://react-password-generator-jet.vercel.app/",
-    features:
-      "React router, Context API, Routing parameters for different categories, Add to cart option, Breadcrumbs menu for products",
-  },
+  // {
+  //   id: 5,
+  //   category: "React JS",
+  //   title: "Currency Converter",
+  //   image: currency_app,
+  //   link: "https://react-currency-converter-two.vercel.app/",
+  //   features:
+  //     "React router, Context API, Routing parameters for different categories, Add to cart option, Breadcrumbs menu for products",
+  // },
+  // {
+  //   id: 6,
+  //   category: "React JS",
+  //   title: "Password Generator",
+  //   image: password_app,
+  //   link: "https://react-password-generator-jet.vercel.app/",
+  //   features:
+  //     "React router, Context API, Routing parameters for different categories, Add to cart option, Breadcrumbs menu for products",
+  // },
   {
     id: 7,
     category: "Vanilla JS",
@@ -101,14 +102,23 @@ const PortfolioData = [
     features:
       "A calculator made using Vanilla Javascript that can be used for different computations",
   },
+  // {
+  //   id: 11,
+  //   category: "Vanilla JS",
+  //   title: "TextToSpeech Convertor",
+  //   image: texttospeech_app,
+  //   link: "https://gauravkumar2601.github.io/Text-To-Speech-Converter/",
+  //   features:
+  //     "Music app using Javascript that plays different sounds based on the events triggered by the clicks, also handles respective keypress events",
+  // },
   {
-    id: 11,
-    category: "Vanilla JS",
-    title: "TextToSpeech Convertor",
-    image: texttospeech_app,
-    link: "https://gauravkumar2601.github.io/Text-To-Speech-Converter/",
+    id: 12,
+    category: "MERN",
+    title: "Real Estate Website",
+    image: mernestate_app,
+    link: "https://mern-estate-1f43.onrender.com/",
     features:
-      "Music app using Javascript that plays different sounds based on the events triggered by the clicks, also handles respective keypress events",
+      "Real Estate website made using MERN stack. Implemented CRUD features, Google OAuth, Firebase storage, responsive design, etc.",
   },
 ];
 
