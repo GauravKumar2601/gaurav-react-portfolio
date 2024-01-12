@@ -107,6 +107,7 @@ header .main .main-img {
 
 header .main .main-img div img {
   width: 100%;
+  padding: 5rem 4rem 1rem 4rem;
 }
 
 header .social-icon {

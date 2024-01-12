@@ -1,6 +1,6 @@
 import React from "react";
 import Navbar from "./nav.component";
-import profile from "../../assets/images/img.png";
+import profile from "../../assets/images/profile.svg";
 import { useTypewriter, Cursor } from "react-simple-typewriter";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -37,8 +37,8 @@ const Header = () => {
             </span>
 
             <p>
-              A versatile web developer proficient in a wide array of
-              technologies and frameworks with a passion for crafting
+              I, Gaurav Kumar, am a versatile web developer proficient in a wide
+              array of technologies and frameworks with a passion for crafting
               exceptional web experiences, I specialize in creating responsive
               and user-friendly websites and applications.
             </p>
