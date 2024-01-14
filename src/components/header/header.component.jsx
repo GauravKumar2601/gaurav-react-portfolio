@@ -7,6 +7,7 @@ import {
   faGithub,
   faInstagram,
   faLinkedin,
+  faTwitter,
 } from "@fortawesome/free-brands-svg-icons";
 
 const Header = () => {
@@ -72,6 +73,9 @@ const SocialIcon = () => {
       </a>
       <a href="https://github.com/GauravKumar2601" target="_blank">
         <FontAwesomeIcon icon={faGithub} size="2x" />
+      </a>
+      <a href="https://twitter.com/GauravCodesIt" target="_blank">
+        <FontAwesomeIcon icon={faTwitter} size="2x" />
       </a>
       <a href="https://www.instagram.com/gauravartspace/" target="_blank">
         <FontAwesomeIcon icon={faInstagram} size="2x" />

@@ -10,8 +10,18 @@ import guessmynumber_app from "../../assets/portfolio/guessmynumber_app.png";
 import jscalculator_app from "../../assets/portfolio/jscalculator_app.png";
 import texttospeech_app from "../../assets/portfolio/texttospeech_app.png";
 import mernestate_app from "../../assets/portfolio/mernestate_app.png";
+import infusion_app from "../../assets/portfolio/infusion_app.png";
 
 const PortfolioData = [
+  {
+    id: 12,
+    category: "MERN",
+    title: "Real Estate Website",
+    image: mernestate_app,
+    link: "https://mern-estate-1f43.onrender.com/",
+    features:
+      "Real Estate website made using MERN stack. Implemented CRUD features, Google OAuth, Firebase storage, responsive design, etc.",
+  },
   {
     id: 1,
     category: "React JS",
@@ -20,6 +30,15 @@ const PortfolioData = [
     link: "https://react-ecommerce-site-xi.vercel.app/",
     features:
       "React router, Context API, Routing parameters for different categories, Add to cart option, Breadcrumbs menu for products",
+  },
+  {
+    id: 13,
+    category: "React JS",
+    title: "React Agency Site",
+    image: infusion_app,
+    link: "https://react-agency-infusion.vercel.app/",
+    features:
+      "A fully responsive agency website made using React JS, Tailwind CSS and Flowbite Library. It can be used as a landing page for various agencies.",
   },
   {
     id: 2,
@@ -39,15 +58,15 @@ const PortfolioData = [
     features:
       "React weather app that shows live weather updates using OpenWeather API",
   },
-  {
-    id: 4,
-    category: "React JS",
-    title: "TicTacToe App",
-    image: tictactoe_app,
-    link: "https://tictactoe-in-react.vercel.app/",
-    features:
-      "React router, Context API, Routing parameters for different categories, Add to cart option, Breadcrumbs menu for products",
-  },
+  // {
+  //   id: 4,
+  //   category: "React JS",
+  //   title: "TicTacToe App",
+  //   image: tictactoe_app,
+  //   link: "https://tictactoe-in-react.vercel.app/",
+  //   features:
+  //     "React router, Context API, Routing parameters for different categories, Add to cart option, Breadcrumbs menu for products",
+  // },
   // {
   //   id: 5,
   //   category: "React JS",
@@ -111,15 +130,6 @@ const PortfolioData = [
   //   features:
   //     "Music app using Javascript that plays different sounds based on the events triggered by the clicks, also handles respective keypress events",
   // },
-  {
-    id: 12,
-    category: "MERN",
-    title: "Real Estate Website",
-    image: mernestate_app,
-    link: "https://mern-estate-1f43.onrender.com/",
-    features:
-      "Real Estate website made using MERN stack. Implemented CRUD features, Google OAuth, Firebase storage, responsive design, etc.",
-  },
 ];
 
 export default PortfolioData;
